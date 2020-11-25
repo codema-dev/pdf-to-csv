@@ -1,6 +1,4 @@
-apt-get install sudo && \
-    sudo apt-get update && \
+apt-get install sudo
+sudo apt-get update && \
     apt-get install --no-install-recommends -y && \
-    ffmpeg && \
-    libsm6 && \
-    libxext6
+    libgl1-mesa-glx
