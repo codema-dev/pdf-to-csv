@@ -1,0 +1,7 @@
+name: pdf-to-csv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - camelot-py
