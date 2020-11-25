@@ -1,2 +1,5 @@
-apt-get update
-apt-get install -y ffmpeg libsm6 libxext6
+sudo apt-get update && \
+    apt-get install --no-install-recommends -y && \
+    ffmpeg && \
+    libsm6 && \
+    libxext6
